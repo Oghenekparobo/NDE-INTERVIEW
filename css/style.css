@@ -1,0 +1,54 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+ 
+}
+
+
+.send-placeholder{ 
+    color:grey;
+    position: absolute;
+    padding: 5px;
+    font-size:15px;
+    left: 30px;
+}
+
+/* .btc-send-placeholder{ 
+    color:grey;
+    position: absolute;
+    padding: 5px;
+    font-size:15px;
+    bottom: 1000px;
+    
+} */
+.card-container{ 
+    transform: translateY(50%);
+}
+
+card{ 
+    box-shadow: 5px 10px #888888;
+}
+.card-wrapper{ 
+    transform: translate(35%, 75%);
+}
+
+
+
+.text{ 
+    opacity: 0.5;
+}
+
+::placeholder{ 
+    font-weight: bold;
+    color: #000;
+}
+
+
+
+input ,select{ 
+    border: none !important;
+    padding: 1.5rem !important;
+}
+
